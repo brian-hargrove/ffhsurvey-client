@@ -128,7 +128,7 @@ const Questionone = (props) => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    fetch(`${process.env.REACT_APP_URL}/survey/create`, {
+    fetch(`https://ffhsurvey2022.herokuapp.com/survey/create`, {
       method: "POST",
       body: JSON.stringify({
         survey: {
