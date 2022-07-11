@@ -128,7 +128,7 @@ const Questionone = (props) => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    fetch(`http://localhost:3000/survey/create`, {
+    fetch(`${process.env.REACT_APP_URL}/survey/create`, {
       method: "POST",
       body: JSON.stringify({
         survey: {
