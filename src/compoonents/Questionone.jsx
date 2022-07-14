@@ -201,6 +201,7 @@ const Questionone = (props) => {
       .then((data) => {
         console.log(data);
         resetForm();
+        window.location.assign("https://familiesforhope.org/");
         alert("Survey info saved.");
       });
   };
