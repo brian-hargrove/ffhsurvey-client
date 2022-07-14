@@ -8,7 +8,7 @@ const Intro = () => {
       <div id="opening">
         <p>Dear Families,</p>
         <p>
-          We need your help. by completing this survey with complete anonymity,
+          We need your help. By completing this survey with complete anonymity,
           your answers and suggestions will guide us in our continuing efforts
           to encorage, educate and support you along your journey with HPE.
         </p>
@@ -20,9 +20,9 @@ const Intro = () => {
         </p>
         <p>
           Your input is vital as we move forward. Please tell us how to better
-          serve you by completeing this survey
+          serve you by completeing this survey.
         </p>
-        <p>THANK YOU FOR TAKING TIME TO HELP US GROW</p>
+        <p>THANK YOU FOR TAKING TIME TO HELP US GROW!</p>
       </div>
     </>
   );

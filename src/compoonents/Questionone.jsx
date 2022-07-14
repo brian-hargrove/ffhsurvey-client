@@ -2953,7 +2953,7 @@ const Questionone = (props) => {
           </FormGroup>
           <FormGroup>
             <p className="surveyQuestion">
-              Where would you like to see future conferences to be held?
+              Where would you like future conferences to be held?
             </p>
             <Input
               type="textarea"
@@ -3007,7 +3007,7 @@ const Questionone = (props) => {
       {/* DEMOS */}
       <Form onSubmit={(event) => handleSubmit(event)}>
         <p className="surveyQuestion">
-          The last few questins are used to group your answers.
+          The last few questions are used to group your answers.
         </p>
         <div>
           <FormGroup id="demo">
@@ -3147,7 +3147,7 @@ const Questionone = (props) => {
         <div>
           <FormGroup id="demo">
             <p className="demoQuestion">
-              Did you recieve assistance paying for conference registration
+              Did you receive assistance paying for conference registration
               fees?
             </p>
             <Input
@@ -3163,6 +3163,15 @@ const Questionone = (props) => {
             </Input>
           </FormGroup>
         </div>
+        <p className="submitMessage">
+          Upon hitting submit you should see a message stating{" "}
+          <b>
+            <i>Survey info saved</i>
+          </b>{" "}
+          or you will be directed to the Families for Hope website. If you do
+          not see this message or you are not directed to the website, please
+          check to make sure all questions have an answer.
+        </p>
         <Button id="buttonSurvey" type="submit">
           SUBMIT
         </Button>

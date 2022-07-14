@@ -27,3 +27,10 @@ body {
 #assistChoice {
   width: 20%;
 }
+
+.submitMessage {
+  color: red;
+  width: 80%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
