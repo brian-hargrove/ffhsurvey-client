@@ -128,7 +128,7 @@ const Questionone = (props) => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    fetch(`https://ffhsurvey-server.herokuapp.com//survey/create`, {
+    fetch(`https://ffhsurvey-server.herokuapp.com/survey/create`, {
       method: "POST",
       body: JSON.stringify({
         survey: {
