@@ -8,13 +8,14 @@ import Intro from "./compoonents/Intro";
 import Questionone from "./compoonents/Questionone";
 import Questiontwo from "./compoonents/Questiontwo";
 import { Form, Button } from "reactstrap";
+import SurveyOver from "./compoonents/SurveyOver";
 
 function App() {
   return (
     <>
       <Intro></Intro>
-
-      <Questionone></Questionone>
+      <SurveyOver></SurveyOver>
+      {/* <Questionone></Questionone> */}
       <Router></Router>
       <Footer></Footer>
     </>
